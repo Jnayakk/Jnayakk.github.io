@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Century Gothic, sans-serif;
+}
+h1 {
+    color: #62bcfa;
+    font-size: 80px;
+    /*
+    color: rgb(204,69,193)
+    */;
+}
+
+.navBar {
+  background-color: rgba(252, 205, 211, 1);
+  overflow-y: auto;
+  text-align: center;
+  width: 100%;
+    position: fixed;
+}
+
+#logo {
+    float: left;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 50px;
+}
+
+.navBar ul {
+  padding: 0;
+}
+
+.navBar ul li {
+  color: white;
+  display: block;
+    float: right;
+font-family: Century Gothic, sans-serif;
+  font-size: 20px;
+  margin: 16px 20px;
+}
+
+.jumbotron {
+    /*
+  background: url(http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.png) no-repeat center center;
+  background-size: cover;
+  height: 800px;
+    */
+    background: url(/images/victoriafalls.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 665px;
+}
+
+
+#transparentlayer {
+    background-color: rgba(101, 52, 255, 0.5);
+    height: 100%;
+    width: 100%;
+}
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+  position: relative;
+  top: 250px;
+  text-align: center;
+}
+
+.section {
+    padding: 20px 20px;
+}
+
+.subheading {
+    font-size: 50px;
+    color: #62bcfa;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+
+#bio {
+    font-size: 25px;
+    font-family: Lato, Arial, sans-serif;
+    word-spacing: 1px;
+}
+
+#skills {
+    background: url(/images/icbuilding.jpg) no-repeat center center;
+    background-size: cover;
+    height: 700px;
+    background-attachment: fixed;
+}
+
+#links {
+    background-color: rgb(101, 52, 255);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
