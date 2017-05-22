@@ -192,16 +192,22 @@ body {
     background-color: #62bcfa;
 }
 
-.extraskills {
+.skillstable {
     border-collapse: separate;
     border-spacing: 25px;
     width: 100%;
+    table-layout: fixed;
 }
 
 .eskill {
     padding: 25px;
     border: 5px solid #62bcfa;
-    background-color: white;
+    color: #62bcfa;
+    font-size: 25px;
+}
+
+.eskill ul {
+    list-style-type: none;
 }
 
 .sk {
