@@ -2,20 +2,23 @@
     margin: 0px;
     padding: 0px;
     font-family: Century Gothic, sans-serif;
+    box-sizing: border-box;
 }
+
 h1 {
     color: #62bcfa;
     font-size: 80px;
     /*
     color: rgb(204,69,193)
-    */;
+    */
+    ;
 }
 
 .navBar {
-  background-color: rgba(252, 205, 211, 1);
-  overflow-y: auto;
-  text-align: center;
-  width: 100%;
+    background-color: rgba(252, 205, 211, 1);
+    overflow-y: auto;
+    text-align: center;
+    width: 100%;
     position: fixed;
 }
 
@@ -27,16 +30,16 @@ h1 {
 }
 
 .navBar ul {
-  padding: 0;
+    padding: 0;
 }
 
 .navBar ul li {
-  color: white;
-  display: block;
+    color: white;
+    display: block;
     float: right;
-font-family: Century Gothic, sans-serif;
-  font-size: 20px;
-  margin: 16px 20px;
+    font-family: Century Gothic, sans-serif;
+    font-size: 20px;
+    margin: 16px 20px;
 }
 
 .jumbotron {
@@ -51,13 +54,11 @@ font-family: Century Gothic, sans-serif;
     height: 665px;
 }
 
-
 #transparentlayer {
     background-color: rgba(101, 52, 255, 0.5);
     height: 100%;
     width: 100%;
 }
-
 
 body {
     padding: 0px;
@@ -65,9 +66,9 @@ body {
 }
 
 .main {
-  position: relative;
-  top: 250px;
-  text-align: center;
+    position: relative;
+    top: 250px;
+    text-align: center;
 }
 
 #about {
@@ -104,4 +105,107 @@ body {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.imagesubheading {
+    font-size: 75px;
+    color: #62bcfa;
+    font-weight: 300;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+
+/* Container for skill bars */
+
+.container {
+    width: 100%;
+    /* Full width */
+    background-color: #ddd;
+    /* Grey background */
+}
+
+.slevel {
+    text-align: left;
+    /* Right-align text */
+    padding-left: 20px;
+    /* Add some right padding */
+    line-height: 40px;
+    /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white;
+    /* White text color */
+    margin-bottom: 20px;
+}
+
+#leftlevelcol {
+    width: 50%;
+    float: left;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+#rightlevelcol {
+    width: 50%;
+    float: right;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+.html {
+    width: 90%;
+    background-color: #62bcfa;
+}
+
+.css {
+    width: 80%;
+    background-color: #62bcfa;
+}
+
+.javascript {
+    width: 65%;
+    background-color: #62bcfa;
+}
+
+.php {
+    width: 60%;
+    background-color: #62bcfa;
+}
+
+.python {
+    width: 85%;
+    background-color: #62bcfa;
+}
+
+.sql {
+    width: 75%;
+    background-color: #62bcfa;
+}
+
+.android {
+    width: 78%;
+    background-color: #62bcfa;
+}
+
+.java {
+    width: 86%;
+    background-color: #62bcfa;
+}
+
+.extraskills {
+    border-collapse: separate;
+    border-spacing: 25px;
+    width: 100%;
+}
+
+.eskill {
+    padding: 25px;
+    border: 5px solid #62bcfa;
+    background-color: white;
+}
+
+.sk {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 3px;
 }
