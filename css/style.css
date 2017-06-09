@@ -20,6 +20,7 @@ h1 {
     text-align: center;
     width: 100%;
     position: fixed;
+    z-index: 100;
 }
 
 #logo {
@@ -40,6 +41,7 @@ h1 {
     font-family: Century Gothic, sans-serif;
     font-size: 20px;
     margin: 16px 20px;
+    
 }
 
 .jumbotron {
