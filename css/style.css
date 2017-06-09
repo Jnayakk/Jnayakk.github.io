@@ -15,7 +15,7 @@ h1 {
 }
 
 .navBar {
-    background-color: rgba(252, 205, 211, 1);
+    background-color: rgba(98, 188, 250, 0.5);
     overflow-y: auto;
     text-align: center;
     width: 100%;
@@ -56,6 +56,12 @@ h1 {
     height: 665px;
 }
 
+.navops:hover {
+    color: aqua;
+    cursor: pointer; 
+    cursor: hand;
+}
+
 #transparentlayer {
     background-color: rgba(101, 52, 255, 0.5);
     height: 100%;
@@ -69,8 +75,15 @@ body {
 
 .main {
     position: relative;
-    top: 250px;
+    top: 200px;
     text-align: center;
+}
+
+#displaypic {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #62bcfa;
+    border-radius: 50%
 }
 
 #about {
