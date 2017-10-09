@@ -41,7 +41,6 @@ h1 {
     font-family: Century Gothic, sans-serif;
     font-size: 20px;
     margin: 16px 20px;
-    
 }
 
 .jumbotron {
@@ -58,7 +57,7 @@ h1 {
 
 .navops:hover {
     color: aqua;
-    cursor: pointer; 
+    cursor: pointer;
     cursor: hand;
 }
 
@@ -153,14 +152,14 @@ body {
     margin-bottom: 20px;
 }
 
-#leftlevelcol {
+.leftlevelcol {
     width: 50%;
     float: left;
     padding-left: 25px;
     padding-right: 10px;
 }
 
-#rightlevelcol {
+.rightlevelcol {
     width: 50%;
     float: right;
     padding-left: 10px;
@@ -229,4 +228,86 @@ body {
     font-size: 35px;
     text-align: center;
     padding-bottom: 3px;
+}
+
+#projects {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.pbox {
+    display: block;
+    max-width: 100%;
+}
+
+.projectimages {
+    height: auto;
+    width: auto;
+}
+
+.p_title {
+    font-size: 35px;
+    font-family: Lato, Arial, sans-serif;
+    color: rgb(101, 52, 255);
+}
+
+.list_of_projects a {
+    text-decoration: none;
+}
+
+.p_link {
+    color: rgb(101, 52, 255);
+    font-size: 25px;
+    font-family: Lato, Arial, sans-serif;
+}
+
+#resume {
+    background: url(/images/raptors.jpg) no-repeat center center;
+    background-size: cover;
+    height: 700px;
+    background-attachment: fixed;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    background-color: #62bcfa;
+    padding: 2% 10%;
+    margin: 15% 35%;
+    color: white;
+    font-size: 16px;
+    border: 5px solid #62bcfa;
+    text-decoration: none;
+}
+
+input.resumeButton {
+    width: 300px;
+    padding: 2% 5%;
+    margin: 15% 39%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 150%;
+    background: transparent;
+    color: #62bcfa;
+    border: 5px solid #62bcfa;
+    border-radius: 10px;
+}
+
+input.resumeButton:hover {
+    color: #fff;
+    background: #62bcfa;
+    border: 5px solid #fff;
+}
+
+.networkButtons {
+    width: 150px;
+    padding: 1%;
+    margin: 1% 4% 2% 0%;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    color: #62bcfa;
+    border: 5px solid #62bcfa;
 }
